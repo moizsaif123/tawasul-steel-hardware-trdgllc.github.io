@@ -189,3 +189,14 @@ a.article:hover {
     top: 0;
     right: 0;
 }
+
+.c2zzSe {
+    font-family: "Ultra",serif;
+    font-size: 22px;
+    color:#88b06a;
+    font-weight: bold;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
