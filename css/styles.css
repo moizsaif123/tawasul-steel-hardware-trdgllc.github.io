@@ -230,15 +230,7 @@ a.article:hover {
      justify-content: space-between; 
 }
 
-.iTushb {
-    -webkit-flex-basis: 100%;
-    flex-basis: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    margin: 20px 10px 60px;
-}
+
 
 .iTushb {
     -webkit-flex-basis: 100%;
@@ -247,7 +239,7 @@ a.article:hover {
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     flex-direction: column;
-    margin: 20px 10px 60px;
+    
 }
 
 blockquote {
@@ -410,6 +402,15 @@ div {
     margin: 0 0 60px;
 }
 }
+
+
+@media (max-width: 720px) {
+    .c2zzSe {
+      font-size: 20px;
+      left:55%;
+    }
+  }
+
 /*end of div*/
 
 .n9wygc{
