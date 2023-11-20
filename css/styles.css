@@ -230,7 +230,50 @@ a.article:hover {
      justify-content: space-between; 
 }
 
+.Igsabe {
+    font-size: 1em;
+    margin: 0 0 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.WUdCTb {
+    border: 1px solid black;
+    margin: 0 auto 16px;
+    width: 50px;
+}
+
+.aPrNKd {
+    text-align: center;
+}
+
+.CzevL .PDllHc {
+    border-color: #88b06a;
+}
+
+.PDllHc {
+    color: #88b06a;
+}
+
+.dogP7c {
+    margin: 0 15px;
+}
+
+.PDllHc {
+    border-bottom: 1px solid;
+    font-weight: 800;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.aPrNKd {
+    text-align: center;
+}   
+
+.Igsabe {
+    font-family: "Ultra",serif;
+    font-weight: 700;
+}
 
 .iTushb {
     -webkit-flex-basis: 100%;
