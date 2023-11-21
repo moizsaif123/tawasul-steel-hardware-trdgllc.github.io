@@ -346,6 +346,74 @@ blockquote {
     height: 20px;
 }
 
+/* Image grid*/
+
+.container{
+    max-width: 1224px;
+    width:90%;
+    margin:auto;
+    padding: 40px 0;
+}
+
+.title{
+    margin-bottom:2 rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    
+    font-weight: 800;
+}
+
+h2{
+    margin:auto;
+}
+
+.photo-gallery{
+    display:flex;
+    gap:40px;
+
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.photo img{
+    width: 100%;
+    height:300px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+@media (max-width:760px) {
+    .photo-gallery{
+        flex-direction: column;
+    }
+}
+
+/*image grid end*/
+
+
+.PTfVdf {
+    background: #f6f6f6;
+}
+
+.b0t70b {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.dlg3Sd {
+    padding: 18px;
+}
+
+
 .jY7uzd {
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -435,6 +503,8 @@ div {
 }
 * {
     -webkit-tap-highlight-color: transparent;
+    padding: 0;
+    margin: 0;
 }
 
 
