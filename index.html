@@ -37,7 +37,7 @@
             <ul class="list-unstyled components">
                 
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                    <a id="closeBar" href="#anchor-test" >Testimonials</a>
                     <!-- <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
                             <a href="#">Home 1</a>
@@ -51,7 +51,7 @@
                     </ul> -->
                 </li>
                 <li>
-                    <a href="#">About us</a>
+                    <a id="closeBar" href="#summary1">About us</a>
                     <!-- <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
@@ -66,7 +66,7 @@
                     </ul> -->
                 </li>
                 <li>
-                    <a href="#">Gallery</a>
+                    <a id="closeBar" href="#imageGrid">Gallery</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
@@ -175,7 +175,8 @@
 <br><br><br>
 
 <hr class="WUdCTb">
-            <h2 class="Igsabe">Testimonials</h2>
+             <h2 id="anchor-test" class="Igsabe">Testimonials</h2>
+            
             <div class="jY7uzd">
                 <div class="EIjale">
                     <div class="iTushb">
@@ -367,7 +368,9 @@
             <div class="aPrNKd">
                 <a class="PDllHc dogP7c" href="https://g.page/r/Cd5F0-Bs3ByXEB0/review" rel="noreferrer">Write a Review</a><a class="PDllHc dogP7c" href="https://search.google.com/local/reviews?placeid=ChIJKeB1s9dw9j4R3kXT4GzcHJc" rel="noreferrer">Read More</a>
             </div>           
-            <br><br><br>
+            <br>
+            <h2 id="summary1"></h2>
+            <br><br><br><br>
             <div class="PTfVdf b0t70b" data-panel="summary-panel" id="summary">
                 <div class="dlg3Sd">
                     <div class="lead__summary-content" data-field="summary-body" itemprop="disambiguatingDescription">
@@ -379,8 +382,9 @@
 
             <div class="container">
                 <hr class="WUdCTb">
-                <h2 class="title">responsive photo gallery</h2>
-                <div class="photo-gallery">
+                <h2 id="imageGrid" class="title">Gallery</h2>
+                <br><br><br>
+                <div  class="photo-gallery">
                     <div class="column">
                         <div class="photo">
                             <img src="img/tawasul.jpg" alt="">
@@ -436,6 +440,11 @@
             });
 
             $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#closeBar, .overlay').on('click', function () {
                 $('#sidebar').removeClass('active');
                 $('.overlay').removeClass('active');
             });

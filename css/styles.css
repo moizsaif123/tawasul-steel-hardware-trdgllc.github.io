@@ -35,6 +35,10 @@ a:focus {
     width: 100%;
 }
 
+.lead__summary-content{
+    padding: 70px 70px;
+}
+
 .navbar-btn {
     box-shadow: none;
     outline: none !important;
@@ -273,7 +277,6 @@ a.article:hover {
 }   
 
 .Igsabe {
-    font-family: "Ultra",serif;
     font-weight: 700;
 }
 
