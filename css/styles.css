@@ -2,7 +2,7 @@
     DEMO STYLE
 */
 
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -14,7 +14,7 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
-}
+} */
 
 a,
 a:hover,
@@ -33,6 +33,7 @@ a:focus {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .lead__summary-content{
@@ -215,6 +216,39 @@ a.article:hover {
     left: 80%;
     transform: translate(-50%, -50%);
     display: inline-block;
+}
+
+.icon{
+    float: left;
+    position:relative;
+    padding:2px 13px 0 0;
+    
+}
+
+.CoIOBe {
+    color: #88b06a;
+    font-family: "Ultra",serif;
+    
+}
+
+.teQaN {
+    margin-bottom: 24px;
+}
+
+.wrappr{
+    text-align: center;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 640px){
+.nbOMh {
+    font-size: 1em;
+}
 }
 
 .Pmm3mc {
