@@ -2,7 +2,7 @@
     DEMO STYLE
 */
 
-/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -14,7 +14,7 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
-} */
+}
 
 a,
 a:hover,
@@ -227,8 +227,13 @@ a.article:hover {
 
 .CoIOBe {
     color: #88b06a;
-    font-family: "Ultra",serif;
+    font-family: "Archivo Black",serif;
     
+}
+
+.loc{
+    width: 100%;
+    padding: 0 10px;
 }
 
 .teQaN {
