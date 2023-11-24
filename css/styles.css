@@ -224,6 +224,17 @@ a.article:hover {
     transform: translate(-50%, -50%);
 }
 
+.c2zzSee{
+    font-size: 15px;
+    color:#88b06a;
+    font-weight: bold;
+}
+
+.svg_call{
+    width: 40px;
+    text-align: center;
+}
+
 .glyph {
     font-weight: bold;
     color:#88b06a;
@@ -535,6 +546,12 @@ q {
     margin-left: 12px;
 }
 
+.call{
+    display: block;
+    position: absolute;
+    transform: translate(50%,10%);
+    width: 100%;
+}
 
 div {
     display: block;
