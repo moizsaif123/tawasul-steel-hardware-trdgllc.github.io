@@ -36,6 +36,22 @@ a:focus {
     z-index: 1;
 }
 
+.footer{
+    padding: 13px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+
 .lead__summary-content{
     padding: 70px 70px;
 }
@@ -553,12 +569,16 @@ div {
 
 
 @media (min-width: 640px){
-.iTushb {
-    -webkit-flex-basis: 48%;
-    flex-basis: 48%;
-    margin: 0 0 60px;
+    .iTushb {
+        -webkit-flex-basis: 48%;
+        flex-basis: 48%;
+        margin: 0 0 60px;
+    }
+    .footer{
+        display: none;
+    }
 }
-}
+
 
 
 @media (max-width: 720px) {
