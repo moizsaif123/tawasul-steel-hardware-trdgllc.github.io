@@ -245,6 +245,12 @@ a.article:hover {
     display: inline-block;
 }
 
+.glyph_footer{
+    font-weight: bold;
+    color:#88b06a;
+    font-size: 1em;
+}
+
 .icon{
     float: left;
     position:relative;
@@ -544,6 +550,17 @@ q {
     -webkit-flex-grow: 2;
     flex-grow: 2;
     margin-left: 12px;
+}
+
+.quotes{
+    float: right;
+}
+
+.plac{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+
 }
 
 .call{
