@@ -245,6 +245,13 @@ a.article:hover {
     display: inline-block;
 }
 
+.icon_direct{
+    position: absolute;
+    display: grid;
+    left: 50px;
+
+}
+
 .glyph_footer{
     font-weight: bold;
     color:#88b06a;
@@ -566,7 +573,7 @@ q {
 .call{
     display: block;
     position: absolute;
-    transform: translate(50%,10%);
+    transform: translate(45%,10%);
     width: 100%;
 }
 
