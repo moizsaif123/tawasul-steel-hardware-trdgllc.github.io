@@ -141,7 +141,7 @@
                         </div>
                         <div class="form-group">
                           <label for="message-text" class="col-form-label">How can we help you?:</label>
-                          <textarea class="form-control" id="message" name="message"></textarea>
+                          <textarea class="form-control" id="message" name="message" onclick="click()" placeholder="I wanted to know the availability and rates"></textarea>
                         </div>
                       </form>
                     </div>
@@ -530,7 +530,14 @@
                 $('.collapse.in').toggleClass('in');
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
+
+            $('#message').click(function() {
+                $('#message').removeAttr('placeholder');
+                
+            });
         });
+
+        
     </script>
 </body>
 
