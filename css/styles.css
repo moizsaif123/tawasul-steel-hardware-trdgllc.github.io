@@ -478,6 +478,27 @@ h2{
     }
 }
 
+@media (max-width:760px) {
+    .item1{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+#container1{
+    margin: 0 auto;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item1{
+    display: block;
+    margin: 0 18px 42px
+}
+
 /*image grid end*/
 
 
