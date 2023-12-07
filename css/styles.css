@@ -650,7 +650,8 @@ div {
 @media (max-width: 720px) {
     .c2zzSe {
       font-size: 20px;
-      left:60%;
+      left:70%;
+      width:100%;
     }
   }
 
