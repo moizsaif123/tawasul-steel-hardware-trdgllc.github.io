@@ -588,6 +588,11 @@ q {
     float: right;
 }
 
+.quote{
+    position: absolute;
+    right: 20px;
+}
+
 .plac{
     position: absolute;
     left: 50px;
