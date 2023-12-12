@@ -11,8 +11,8 @@
     <meta name="description" content="Tour this beloved local steel hardware store known for their unbeatable retail prices on contractor-grade steel building materials. Their inventory includes all the nuts, bolts, brackets, beams, and hardware supplies builders need.">
     
     <link rel="preload" as="font">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Archivo+Black&display=swap" rel="stylesheet" media="all">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -549,6 +549,28 @@
         });
 
         
+    </script>
+    <script>
+        jQuery.event.special.touchstart = {
+    setup: function( _, ns, handle ) {
+        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+};
+jQuery.event.special.touchmove = {
+    setup: function( _, ns, handle ) {
+        this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+};
+jQuery.event.special.wheel = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("wheel", handle, { passive: true });
+    }
+};
+jQuery.event.special.mousewheel = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("mousewheel", handle, { passive: true });
+    }
+};
     </script>
 </body>
 
