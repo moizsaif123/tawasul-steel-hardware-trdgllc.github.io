@@ -6,6 +6,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
+    font-display: swap;
 }
 
 p {
@@ -14,6 +15,7 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
+    font-display: swap;
 }
 
 a,
@@ -222,6 +224,7 @@ a.article:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-display: swap;
 }
 
 .c2zzSee{
@@ -268,7 +271,7 @@ a.article:hover {
 .CoIOBe {
     color: #88b06a;
     font-family: "Archivo Black",serif;
-    
+    font-display: swap;
 }
 
 .loc{
@@ -614,6 +617,7 @@ div {
 .CzevL {
     font-family: "Slabo 13px",serif;
     font-weight: 400;
+    font-display: swap;
 }
 * {
     -webkit-tap-highlight-color: transparent;
