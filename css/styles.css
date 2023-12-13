@@ -290,11 +290,6 @@ a.article:hover {
     width: 100%;
 }
 
-@media (min-width: 640px){
-.nbOMh {
-    font-size: 1em;
-}
-}
 
 .Pmm3mc {
     color: rgb(251,188,4);
@@ -472,18 +467,6 @@ h2{
     border: 1px solid black;
 }
 
-@media (max-width:760px) {
-    .photo-gallery{
-        flex-direction: column;
-    }
-}
-
-@media (max-width:760px) {
-    .item1{
-        width: 100%;
-        text-align: center;
-    }
-}
 
 .hours{
     margin: auto;
@@ -639,28 +622,6 @@ div {
 }
 
 
-@media (min-width: 640px){
-    .iTushb {
-        -webkit-flex-basis: 48%;
-        flex-basis: 48%;
-        margin: 0 0 60px;
-    }
-    .footer{
-        display: none;
-    }
-}
-
-
-
-@media (max-width: 720px) {
-    .c2zzSe {
-      font-size: 18px;
-      left:70%;
-      width:100%;
-      font-weight: bolder;
-    }
-  }
-
 /*end of div*/
 
 .n9wygc{
@@ -670,11 +631,3 @@ div {
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 720px) {
-    #sidebarCollapse{
-        left:50%;
-        
-        
-    }
-    .glyph{ display: none; }
-  }
