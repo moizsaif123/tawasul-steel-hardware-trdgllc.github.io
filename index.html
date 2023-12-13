@@ -12,8 +12,7 @@
     
 
     <link rel="preload" as="font" media="screen">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    
     <link rel="preload"  as="style" href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Archivo+Black&display=swap" rel="stylesheet" media="screen">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" rel="preload"  as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" media="screen">
@@ -540,7 +539,7 @@
     <script>
         jQuery.event.special.touchstart = {
     setup: function( _, ns, handle ) {
-        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+        this.addEventListener("touchstart", handle, { passive: true });
     }
 };
 jQuery.event.special.touchmove = {
