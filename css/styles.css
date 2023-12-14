@@ -378,7 +378,7 @@ blockquote {
 .CoamRb {
     width: 20px;
     height: 20px;
-    vertical-align: text-bottom;
+    /*vertical-align: text-bottom;*/
 }
 
 .P0eG7b {
@@ -424,7 +424,7 @@ blockquote {
 .TpcqSc {
     color: rgb(218,220,224);
     z-index: -1;
-    vertical-align: top;
+    /*vertical-align: top;*/
     height: 20px;
 }
 
