@@ -2,7 +2,7 @@
     DEMO STYLE
 */
 
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -38,7 +38,7 @@ a:focus {
     z-index: 1;
 }
 
-.footer{
+.footer {
     padding: 13px;
     background: #fff;
     border: none;
@@ -54,7 +54,7 @@ a:focus {
 
 
 
-.lead__summary-content{
+.lead__summary-content {
     padding: 70px 70px;
 }
 
@@ -155,12 +155,12 @@ a:focus {
 }
 
 #sidebar ul li.active>a,
-a[aria-expanded="true"] {
+a[aria-expanded='true'] {
     color: #fff;
     background: #6d7fcc;
 }
 
-a[data-toggle="collapse"] {
+a[data-toggle='collapse'] {
     position: relative;
 }
 
@@ -216,7 +216,7 @@ a.article:hover {
 }
 
 .c2zzSe {
-    font-family: "Ultra",serif;
+    font-family: 'Ultra',serif;
     font-size: 22px;
     color:#88b06a;
     font-weight: bold;
@@ -227,13 +227,13 @@ a.article:hover {
     font-display: swap;
 }
 
-.c2zzSee{
+.c2zzSee {
     font-size: 15px;
     color:#88b06a;
     font-weight: bold;
 }
 
-.svg_call{
+.svg_call {
     width: 40px;
     text-align: center;
 }
@@ -248,33 +248,33 @@ a.article:hover {
     display: inline-block;
 }
 
-.icon_direct{
+.icon_direct {
     position: absolute;
     display: grid;
     left: 50px;
 
 }
 
-.glyph_footer{
+.glyph_footer {
     font-weight: bold;
     color:#88b06a;
     font-size: 1em;
 }
 
-.icon{
+.icon {
     float: left;
-    position:relative;
-    padding:2px 13px 0 0;
+    position: relative;
+    padding: 2px 13px 0 0;
     
 }
 
 .CoIOBe {
     color: #88b06a;
-    font-family: "Archivo Black",serif;
+    font-family: 'Archivo Black',serif;
     font-display: swap;
 }
 
-.loc{
+.loc {
     width: 100%;
     padding: 0 10px;
 }
@@ -283,7 +283,7 @@ a.article:hover {
     margin-bottom: 24px;
 }
 
-.wrappr{
+.wrappr {
     text-align: center;
     display: flex;
     -webkit-flex-flow: column;
@@ -430,15 +430,15 @@ blockquote {
 
 /* Image grid*/
 
-.container{
+.container {
     max-width: 1224px;
-    width:90%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
     padding: 40px 0;
 }
 
-.title{
-    margin-bottom:2 rem;
+.title {
+    margin-bottom: 2 rem;
     text-align: center;
     text-transform: uppercase;
     font-size: 1em;
@@ -446,45 +446,45 @@ blockquote {
     font-weight: 800;
 }
 
-h2{
-    margin:auto;
+h2 {
+    margin: auto;
 }
 
-.photo-gallery{
-    display:flex;
-    gap:40px;
+.photo-gallery {
+    display: flex;
+    gap: 40px;
 
 }
 
-.column{
-    display:flex;
+.column {
+    display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.photo img{
+.photo img {
     width: 100%;
-    height:300px;
+    height: 300px;
     border-radius: 5px;
     object-fit: cover;
     border: 1px solid black;
 }
 
 
-.hours{
+.hours {
     margin: auto;
 }
 
 
-#container1{
+#container1 {
     margin: 0 auto;
     background-color: whitesmoke;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.item1{
+.item1 {
     display: block;
     margin: 0 18px 42px
 }
@@ -570,23 +570,23 @@ q {
     margin-left: 12px;
 }
 
-.quotes{
+.quotes {
     float: right;
 }
 
-.quote{
+.quote {
     position: absolute;
     right: 20px;
 }
 
-.plac{
+.plac {
     position: absolute;
     left: 50px;
     top: 30px;
 
 }
 
-.call{
+.call {
     display: block;
     position: absolute;
     transform: translate(45%,10%);
@@ -615,7 +615,7 @@ div {
     position: relative;
 }
 .CzevL {
-    font-family: "Slabo 13px",serif;
+    font-family: 'Slabo 13px',serif;
     font-weight: 400;
     font-display: swap;
 }
@@ -630,8 +630,8 @@ div {
 
 .n9wygc{
     display: block;
-    height:auto;
-    width:100%
+    height: auto;
+    width: 100%
 
 }
 
