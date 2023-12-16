@@ -272,6 +272,7 @@ a.article:hover {
     color: #88b06a;
     font-family: "Archivo Black",serif;
     font-display: swap;
+    font-weight: bold;
 }
 
 .loc{
