@@ -2,7 +2,7 @@
     DEMO STYLE
 */
 
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"; */
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -270,6 +270,18 @@ a.article:hover {
 
 .hid{
     visibility: hidden;
+}
+
+.site{
+    text-align: center;
+    width: 100%;
+    padding: 18px 0 0 0;
+    color: #88b06a;
+}
+
+.hdg{
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .CoIOBe {

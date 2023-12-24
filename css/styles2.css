@@ -10,6 +10,12 @@
             flex-direction: column;
         }
     }
+
+    @media (max-width:760px) {
+        .site{
+            font-size: 16px;
+        }
+    }
     
     @media (max-width:760px) {
         .item1{
