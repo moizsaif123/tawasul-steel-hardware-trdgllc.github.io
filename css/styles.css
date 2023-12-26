@@ -631,6 +631,11 @@ div {
     padding: 0 0 56px;
     position: relative;
 }
+
+.link{
+    text-decoration: underline;
+}
+
 .CzevL {
     font-family: "Slabo 13px",serif;
     font-weight: 400;
