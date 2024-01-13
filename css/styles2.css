@@ -15,6 +15,10 @@
         .site{
             font-size: 16px;
         }
+        .hid{
+            visibility: hidden;
+        }
+        
     }
     
     @media (max-width:760px) {
